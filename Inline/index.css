@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  background: #f3ac3c;
+}
+
+.star {
+  margin: 50vh auto;
+  width: 200px;
+  height: 200px;
+  background: #1a4341;
+  position: relative;
+}
+
+.a0, .a1, .a2, .a3 {
+  position: absolute;
+  background: #f3ac3c;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+  .a0 {
+  top: -100px;
+  left: -100px;
+}
+
+.a1 {
+  top: 100px;
+  left: -100px;
+}
+.a2 {
+  top: 100px;
+  left: 100px;
+}
+.a3 {
+  top: -100px;
+  left: 100px;
+}
+
+/* 99.9% */

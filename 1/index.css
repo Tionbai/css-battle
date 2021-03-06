@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: #1a4341;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.left,
+.right {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #1a4341;
+}
+
+.left {
+  left: -37.5%;
+}
+.right {
+  left: 62.5%;
+}
+.stripes-box {
+  width: 200px;
+  height: 180px;
+  background-image: repeating-linear-gradient(
+    #f3ac3c,
+    #f3ac3c 20px,
+    #1a4341 20px,
+    #1a4341 40px,
+    #f3ac3c,
+    #f3ac3c 40px
+  );
+}
+
+/* 99.9% */

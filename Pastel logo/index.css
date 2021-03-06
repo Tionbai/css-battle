@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  background: #19191a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #4f77ff;
+  border-radius: 50%;
+}
+
+.circle:before,
+.circle:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 75px;
+}
+
+.circle:before {
+  height: 125px;
+  background: #f9e492;
+}
+
+.circle:after {
+  height: 75px;
+  background: #9ad5ff;
+  border-radius: 0 0 0 100%;
+}
+
+/* 100% */

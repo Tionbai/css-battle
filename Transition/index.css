@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  background: #6592cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t1,
+.t2 {
+  margin-top: -0.9rem;
+  position: absolute;
+  width: 2.5rem;
+  height: 11.3rem;
+  border: 1.9rem solid #243d83;
+  border-left: 0;
+  border-radius: 0 10rem 10rem 0;
+}
+
+.t1 {
+  left: 21.5rem;
+}
+
+.t2 {
+  left: 24rem;
+  transform: rotate(180deg);
+}
+
+/* 100% */
