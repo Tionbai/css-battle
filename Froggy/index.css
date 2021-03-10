@@ -1,0 +1,103 @@
+body {
+  height: 100vh;
+  background: #293462;
+}
+
+.face {
+  margin: 50vh auto;
+  width: 150px;
+  height: 100px;
+  background: #a64942;
+  border-radius: 60px;
+  position: relative;
+}
+
+.face:before,
+.face:after,
+.nose:before,
+.nose:after,
+.eyeL:before,
+.eyeR:before {
+  content: "";
+  position: absolute;
+}
+
+.face:after,
+.nose,
+.eyeL:before,
+.eyeR:before {
+  width: 10px;
+  height: 10px;
+  background: #293462;
+  border-radius: 50%;
+}
+
+.eyeL,
+.eyeR {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff1c1;
+  border-radius: 50%;
+}
+
+.nose:before,
+.nose:after {
+  width: 50px;
+  height: 50px;
+  background: #fe5f55;
+  border-radius: 50%;
+}
+
+.face:before {
+  width: 180px;
+  height: 70px;
+  background: #fe5f55;
+  left: -15px;
+  bottom: 30px;
+  clip-path: ellipse(42% 80% at 50% 70%);
+  border-radius: 100%;
+}
+
+.face:after {
+  top: 50px;
+  left: 80px;
+}
+
+.nose {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+
+.nose:before {
+  top: -75px;
+  left: 25px;
+}
+
+.nose:after {
+  top: -75px;
+  left: -45px;
+}
+
+.eyeL {
+  top: -15px;
+  left: 25px;
+}
+
+.eyeL:before {
+  top: 10px;
+  left: 10px;
+}
+
+.eyeR {
+  top: -15px;
+  left: 95px;
+}
+
+.eyeR:before {
+  top: 10px;
+  left: 10px;
+}
+
+/* 100% */
