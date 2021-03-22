@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  background: #0b2429;
+  min-height: 100vh;
+}
+
+.triangle {
+  width: 141px;
+  height: 140px;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background: #f3ac3c;
+}
+
+/* 100% */

@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  background: #1a4341;
+}
+
+.virus {
+  width: 100px;
+  height: 100px;
+  margin: 50vh auto;
+  position: relative;
+  background: #f3ac3c;
+  border-radius: 50%;
+}
+
+.virus:before,
+.virus:after {
+  content: "";
+  position: absolute;
+  background: #998235;
+  border-radius: 1rem;
+}
+
+.virus:before {
+  top: 1.25rem;
+  left: 1.25rem;
+  width: 30px;
+  height: 30px;
+}
+
+.virus:after {
+  bottom: 0.9rem;
+  left: 2.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.dot {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  width: 10px;
+  height: 10px;
+  background: #998235;
+  border-radius: 50%;
+}
+
+.line,
+.line:before,
+.line:after {
+  position: absolute;
+  background: #f3ac3c;
+  border-radius: 1rem;
+  width: 0.65rem;
+  height: 180px;
+}
+
+.line {
+  top: -3.1rem;
+  left: 2.8rem;
+  z-index: -1;
+}
+
+.line:before {
+  content: "";
+  top: 0.3rem;
+  left: 0.55rem;
+  transform: rotate(60deg);
+}
+
+.line:after {
+  content: "";
+  top: 0.9rem;
+  left: 0.55rem;
+  transform: rotate(-60deg);
+}
+
+/* 100% */

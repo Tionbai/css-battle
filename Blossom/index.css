@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  background: #998235;
+}
+
+.wrapper,
+.blossom {
+  width: 80px;
+  height: 100px;
+  background: #1a4341;
+}
+
+.wrapper {
+  margin: 50vh auto;
+  border-radius: 0 50px;
+  position: relative;
+}
+
+.blossom {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  border-radius: 50px 0;
+}
+
+.wrapper:before,
+.wrapper:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  background: #f3ac3c;
+}
+
+.wrapper:before {
+  top: 120px;
+  left: 0;
+  border-radius: 0 50px;
+}
+
+.wrapper:after {
+  top: 0px;
+  left: 100px;
+  border-radius: 50px 0;
+}
+
+/* 100% */

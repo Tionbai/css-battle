@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  background: #aa445f;
+}
+
+.equal {
+  margin: 50vh auto;
+  width: 100px;
+  height: 200px;
+  background: #f7ec7d;
+  position: relative;
+  border-radius: 150px 0 0 150px;
+}
+
+.equal:before {
+  content: "";
+  position: absolute;
+  left: 150px;
+  width: 100px;
+  height: 200px;
+  background: #E38F66;
+  border-radius: 0 150px 150px 0;
+}
+
+/* 100% */

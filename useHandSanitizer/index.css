@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  background: #1a4341;
+}
+
+.bottle {
+  width: 6.25rem;
+  height: 8.7rem;
+  margin: 50vh auto;
+  position: relative;
+  background: #f3ac3c;
+  border-radius: 1.25rem;
+}
+
+.bottle:before,
+.bottle:after {
+  content: "";
+  position: absolute;
+  background: #f3ac3c;
+}
+
+.bottle:before {
+  width: 3.1rem;
+  height: 3rem;
+  top: -1.25rem;
+  left: 1.6rem;
+  border-radius: 0.6rem;
+}
+
+.bottle:after {
+  width: 1.25rem;
+  height: 3rem;
+  top: -3rem;
+  left: 2.5rem;
+}
+
+.tube, .tube:before {
+  position: absolute;
+  background: #f3ac3c;
+  border-radius: 2rem;
+}
+
+.tube {
+  width: 9.4rem;
+  height: 1.25rem;
+  top: -3.75rem;
+}
+
+.tube:before {
+  content: "";
+  width: 1.25rem;
+  height: 2.5rem;
+  right: 0rem;
+}
+
+.drop,
+.drop:before {
+  position: absolute;
+  background: #998235;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 1rem;
+}
+
+.drop {
+  top: -0.6rem;
+  right: -3.1rem;
+}
+
+.drop:before {
+  content: "";
+  top: 1.85rem;
+}
+
+.bottle-bottom {
+  position: absolute;
+  top: 3.3rem;
+  width: 6.25rem;
+  height: 5.45rem;
+  background: #998235;
+  border-radius: 0 0 1.25rem 1.25rem;
+  left: 0rem;
+}
+
+.bottle-bottom:before,
+.bottle-bottom:after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.bottle-bottom:before {
+  top: -1.4rem;
+  left: -0.6;
+  width: 50px;
+  background: #998235;
+}
+
+.bottle-bottom:after {
+  top: -33px;
+  left: 50px;
+  width: 50px;
+  background: #f3ac3c;
+}
+
+/* 99.9% */

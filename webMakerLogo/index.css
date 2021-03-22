@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #f2f2b6;
+  min-height: 100vh;
+}
+
+.wrapper {
+  margin: 50vh auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.t0,
+.t1,
+.t2,
+.t3 {
+  width: 150px;
+  height: 130px;
+}
+
+.t0,
+.t1,
+.t2,
+.t3 {
+  position: absolute;
+}
+
+.t0,
+.t1 {
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.t0,
+.t3 {
+  background: #fd4602;
+}
+
+.t1,
+.t2 {
+  background: #ff6d00;
+}
+
+.t2,
+.t3 {
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.t1 {
+  left: -20px;
+}
+
+.t2 {
+  left: 110px;
+}
+
+.t3 {
+  left: 90px;
+}
+
+/* 100% */
